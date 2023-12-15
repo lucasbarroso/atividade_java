@@ -1,0 +1,31 @@
+###get_pessoas:
+GET http://localhost:8080/api/pessoas?nome=ronaldo
+
+###post_pessoas:
+POST http://localhost:8080/api/pessoas
+Content-Type: application/json
+
+{
+    "id":2020,
+    "nome":"Marcio",
+    "idade":47 
+}
+###deletar_pessoas:
+POST http://localhost:8080/api/pessoas/deletar
+Content-Type: application/json
+
+{
+    
+    "nome":"Betite"
+    
+}
+###atualizar_pessoas:
+POST http://localhost:8080/api/pessoas/atualizar
+Content-Type: application/json
+
+{
+    "id":3,
+    "nome":"Atual Liza",
+    "idade":4
+    
+}
